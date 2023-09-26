@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/.3548845f98419b1b5db11166b481463d3db0c68d-audit.json",
+    "files": [
+        {
+            "date": 1693799140539,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-09-04-09-success.log",
+            "hash": "ae00e96898c03489d235f2a6056b57db8a71b7a7bf1ffa2a4a568e6b0767ec8d"
+        }
+    ],
+    "hashType": "sha256"
+}

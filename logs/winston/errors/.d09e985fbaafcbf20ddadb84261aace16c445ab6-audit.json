@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/.d09e985fbaafcbf20ddadb84261aace16c445ab6-audit.json",
+    "files": [
+        {
+            "date": 1693799140541,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-09-04-09-error.log",
+            "hash": "350728a72a1077c3f158e8c55f91f5f29ee510d50fb4ad9c618adedade91a1fa"
+        }
+    ],
+    "hashType": "sha256"
+}
