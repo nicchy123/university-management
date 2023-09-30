@@ -1,0 +1,72 @@
+2023-09-27T14:11:41.233Z [um error] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+2023-09-27T14:12:20.694Z [um error] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+2023-09-27T14:19:20.033Z [um error] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+2023-09-27T14:20:42.002Z [um error] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+2023-09-27T14:21:04.183Z [um error] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+2023-09-27T14:22:12.472Z [um error] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
