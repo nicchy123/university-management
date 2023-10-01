@@ -15,6 +15,7 @@ const createUser = catchAsync(
       message: 'user crated successfully',
       data: result,
     });
+    next();
   },
 );
 export const userController = { createUser };

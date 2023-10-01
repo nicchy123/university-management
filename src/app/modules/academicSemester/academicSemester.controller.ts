@@ -17,6 +17,7 @@ const createAcademicSemester = catchAsync(
       message: 'semester crated successfully',
       data: result,
     });
+    next();
   },
 );
 export const academicSemesterController = { createAcademicSemester };

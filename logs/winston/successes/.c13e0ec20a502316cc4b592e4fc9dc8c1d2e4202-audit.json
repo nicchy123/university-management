@@ -124,6 +124,11 @@
             "date": 1696086577009,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-30-09-21-success.log",
             "hash": "38bca87b269a6e2193e9fd7ee7a46ace1b7eabd876a605a4593460996342db36"
+        },
+        {
+            "date": 1696135201904,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-01-10-10-success.log",
+            "hash": "19fbeb4b3588df516b5a3c38549ab4ea9864009f9b6911d123a1ab4fb36f973d"
         }
     ],
     "hashType": "sha256"
