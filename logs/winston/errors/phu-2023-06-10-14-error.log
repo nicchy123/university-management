@@ -1,0 +1,14 @@
+2023-10-06T08:24:22.212Z [um error] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+2023-10-06T08:24:45.660Z [um error] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+2023-10-06T08:29:38.108Z [um error] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+2023-10-06T08:34:38.241Z [um error] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+2023-10-06T08:35:57.300Z [um error] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+2023-10-06T08:39:01.546Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:39:43.794Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:40:01.900Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:43:20.914Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:45:35.744Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:45:47.806Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:47:20.106Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+2023-10-06T08:50:05.232Z [um error] error: co is not defined
+2023-10-06T08:50:09.602Z [um error] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"

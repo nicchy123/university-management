@@ -1,0 +1,7 @@
+2023-10-07T05:08:42.183Z [um error] error: Can't use $option with String.
+2023-10-07T05:10:59.231Z [um error] error: Can't use $option with String.
+2023-10-07T05:12:43.916Z [um error] error: db can not connect due to Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.bbqqyyb.mongodb.net
+2023-10-07T05:12:46.214Z [um error] error: db can not connect due to Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.bbqqyyb.mongodb.net
+2023-10-07T05:48:55.882Z [um error] error: Can't use $option with String.
+2023-10-07T05:49:32.842Z [um error] error: Can't use $option with String.
+2023-10-07T05:50:42.213Z [um error] error: Can't use $option with String.
