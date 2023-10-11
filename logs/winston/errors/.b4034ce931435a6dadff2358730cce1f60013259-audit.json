@@ -264,6 +264,21 @@
             "date": 1696982424674,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-06-error.log",
             "hash": "68a2336b50fbf4ea28a82cbeb0cbdc98ed98f8e29c34a20d130386d89453c95f"
+        },
+        {
+            "date": 1697004003671,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-12-error.log",
+            "hash": "ba766ac889775e520a4acf1c15b1caec96573546ead0f9def3998cb0b255bf35"
+        },
+        {
+            "date": 1697009924110,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-13-error.log",
+            "hash": "5a0c5e3cd9254959a327ac753bba7a1cf83b96270676cb7dd89c2a5aaa2496d8"
+        },
+        {
+            "date": 1697011251117,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-14-error.log",
+            "hash": "ee12f1c6f7f0ce5bd48a75335e8acf7882e3204ad94eef404425b11df3686926"
         }
     ],
     "hashType": "sha256"

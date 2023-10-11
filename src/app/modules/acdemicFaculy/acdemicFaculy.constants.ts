@@ -4,7 +4,7 @@ export const academicFacultyFilterableFields = [
   'syncId',
 ];
 
-export const academicFacultySearchableFields = ['title'];
+export const academicFacultySearchableFields = ['title', 'searchTerm'];
 
 export const EVENT_ACADEMIC_FACULTY_CREATED = 'academic-faculty.created';
 export const EVENT_ACADEMIC_FACULTY_UPDATED = 'academic-faculty.updated';
