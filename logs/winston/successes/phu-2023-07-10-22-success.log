@@ -1,3 +1,5 @@
 2023-10-07T16:00:07.274Z [Auth service] info: SIGTERM is received
 2023-10-07T16:00:18.015Z [Auth service] info: 🛢   Database is connected successfully
 2023-10-07T16:00:18.021Z [Auth service] info: Application  listening on port 5000
+2023-10-07T16:03:25.693Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-07T16:03:25.710Z [Auth service] info: Application  listening on port 5000

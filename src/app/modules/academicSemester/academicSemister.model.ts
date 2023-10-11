@@ -41,7 +41,6 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
 );
 
 academicSemesterSchema.pre('save', async function (next) {
-  console.log('hi');
   const isExist = await AcademicSemester.findOne({
     title: this.title,
     year: this.year,

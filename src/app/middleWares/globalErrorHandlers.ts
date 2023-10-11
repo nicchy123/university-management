@@ -25,7 +25,6 @@ const globalErrorHandler: ErrorRequestHandler = (
   let statusCode = 500;
   let message = 'Something went wrong !';
   let errorMessages: IGenericErrorMessage[] = [];
-
   if (error?.name === 'ValidationError') {
     const simplifiedError = handleValidationError(error);
     statusCode = simplifiedError.statusCode;
@@ -63,7 +62,6 @@ const globalErrorHandler: ErrorRequestHandler = (
         ]
       : [];
   }
-
   res.status(statusCode).json({
     success: false,
     message,
@@ -72,5 +70,4 @@ const globalErrorHandler: ErrorRequestHandler = (
   });
   next();
 };
-
 export default globalErrorHandler;
