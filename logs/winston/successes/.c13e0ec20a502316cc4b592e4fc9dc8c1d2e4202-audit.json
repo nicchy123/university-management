@@ -6,21 +6,6 @@
     "auditLog": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/.c13e0ec20a502316cc4b592e4fc9dc8c1d2e4202-audit.json",
     "files": [
         {
-            "date": 1695822369363,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-27-09-19-success.log",
-            "hash": "87c60b52379178a811fe973fbcf6dd5673c90ac92444fd108e11ded6c02f6f05"
-        },
-        {
-            "date": 1695823896606,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-27-09-20-success.log",
-            "hash": "d419f2996fa716871fc4d654d05740ada5084b7e11e329350bb2ad6a15659e7b"
-        },
-        {
-            "date": 1695833737805,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-27-09-22-success.log",
-            "hash": "03dc7be3279158b8b5630feab8f2d7432542d47bfc6ab2e814c6c784004e846a"
-        },
-        {
             "date": 1695876383175,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-28-09-10-success.log",
             "hash": "813825db94341402a2cf41d0f1e73f035153be9cb42aba8d3bbe819e9c406d37"
@@ -284,6 +269,21 @@
             "date": 1697011244516,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-11-10-14-success.log",
             "hash": "2cb059f8e4314eac64a7d8a741ad89cc80a43d40b715d218fd563fe5e1dd0c84"
+        },
+        {
+            "date": 1697030543529,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-11-10-19-success.log",
+            "hash": "4e0a6737615edad3b21f1acab2a0ef249fa510685649575b4c090060e4adc8b7"
+        },
+        {
+            "date": 1697035065272,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-11-10-20-success.log",
+            "hash": "01e18f25c3900e6ca9be4640f36d84c14650a83ba66dd3db9807624d8fc90550"
+        },
+        {
+            "date": 1697080191098,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-12-10-09-success.log",
+            "hash": "ec61eaa1fe6b930615b63463d73ab1988492bca3d9020380efe293e1f09d3b31"
         }
     ],
     "hashType": "sha256"

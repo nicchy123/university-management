@@ -1,20 +1,24 @@
-import { User } from './user.model';
-import { IUser } from './user.interface';
-import config from '../../../config';
-import { generateUserId } from './user.utils';
+// import { IUser } from './user.interface';
 
-const createUser = async (user: IUser): Promise<IUser | null> => {
-  if (!user.password) {
-    user.password = config.default_user_password as string;
-  }
-  const id = await generateUserId();
-  user.id = id;
-  const createdUser = await User.create(user);
+// const createStudent = async (
+//   student: IStudent,
+//   user: IUser,
+// ) => {
+//   // If password is not given,set default password
+//   if (!user.password) {
+//     user.password = config.default_student_pass as string;
+//   }
+//   // set role
+//   user.role = 'student';
 
-  if (!createUser) throw new Error('Failed to crate user!');
-  return createdUser;
-};
+//   const academicsemester = await AcademicSemester.findById(
+//     student.academicSemester,
+//   ).lean();
 
-export const usersService = {
-  createUser,
-};
+// };
+
+// export const UserService = {
+//   createStudent,
+//   createFaculty,
+
+// };
