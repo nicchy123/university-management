@@ -1,13 +1,13 @@
-// import express from 'express';
-// import { userValidation } from './user.validation';
-// import validateRequest from '../../middleWares/validateRequest';
-// import { UserService } from './user.service';
-// const router = express.Router();
+import express from 'express';
+import validateRequest from '../../middleWares/validateRequest';
+import { UserController } from './user.controller';
+import { UserValidation } from './user.validation';
+const router = express.Router();
 
-// router.post(
-//   '/create-user',
-//   validateRequest(userValidation.createUserZodSchema),
-//   UserService.createStudent,
-// );
+router.post(
+  '/create-student',
+  validateRequest(UserValidation.createUserZodSchema),
+  UserController.createStudent,
+);
 
-// export const userRoutes = router;
+export const userRoutes = router;
