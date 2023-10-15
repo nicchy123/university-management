@@ -1,0 +1,23 @@
+2023-10-15T15:04:00.334Z [Auth service] info: SIGTERM is received
+2023-10-15T15:12:59.641Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:12:59.650Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:15:19.167Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:15:19.176Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:16:13.856Z [Auth service] info: SIGTERM is received
+2023-10-15T15:18:21.029Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:18:21.037Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:18:52.768Z [Auth service] info: SIGTERM is received
+2023-10-15T15:19:11.233Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:19:11.256Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:19:36.628Z [Auth service] info: SIGTERM is received
+2023-10-15T15:22:15.485Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:22:15.494Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:25:40.215Z [Auth service] info: SIGTERM is received
+2023-10-15T15:26:05.550Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:26:05.562Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:27:13.232Z [Auth service] info: SIGTERM is received
+2023-10-15T15:29:24.413Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:29:24.425Z [Auth service] info: Application  listening on port 5000
+2023-10-15T15:29:57.464Z [Auth service] info: SIGTERM is received
+2023-10-15T15:30:15.386Z [Auth service] info: 🛢   Database is connected successfully
+2023-10-15T15:30:15.397Z [Auth service] info: Application  listening on port 5000
