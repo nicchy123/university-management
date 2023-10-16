@@ -3,6 +3,7 @@ import { Model, Types } from 'mongoose';
 
 // Document interface
 export type IUser = {
+  faculty: Types.ObjectId;
   id: string;
   role: string;
   password: string;
