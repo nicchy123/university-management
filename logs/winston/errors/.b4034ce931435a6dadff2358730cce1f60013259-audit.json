@@ -1,260 +1,260 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/.b4034ce931435a6dadff2358730cce1f60013259-audit.json",
+  "files": [
+    {
+      "date": 1696262004920,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-02-10-21-error.log",
+      "hash": "b012afb1e835dabfaf416c8053ba9acd418d84b5f5df6de28644bcfaf524d120"
     },
-    "auditLog": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/.b4034ce931435a6dadff2358730cce1f60013259-audit.json",
-    "files": [
-        {
-            "date": 1696262004920,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-02-10-21-error.log",
-            "hash": "b012afb1e835dabfaf416c8053ba9acd418d84b5f5df6de28644bcfaf524d120"
-        },
-        {
-            "date": 1696263758193,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-02-10-22-error.log",
-            "hash": "eebed2a9d05b05e09ec10bc908fe50ac6b2b6657a274dd2b08ff073a26ee12ec"
-        },
-        {
-            "date": 1696389336032,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-04-10-09-error.log",
-            "hash": "b2d3a8e33c31af04fbec55008b21ee74c06464f0381068317e5939ba1250d832"
-        },
-        {
-            "date": 1696486790679,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-05-10-12-error.log",
-            "hash": "ef2045096c2783770b2c906327b9aa34063f5892bb91741802c48d9752809842"
-        },
-        {
-            "date": 1696495446170,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-05-10-14-error.log",
-            "hash": "06f4b5ca544df9f54e622fdfee48b8af8f6a5fab2c63410f1c3a6e2c157a3839"
-        },
-        {
-            "date": 1696549528423,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-05-error.log",
-            "hash": "460c3c158e236a0a21d058c11f930f76af7423708eda62b34cbe120be2a7d74c"
-        },
-        {
-            "date": 1696554043697,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-07-error.log",
-            "hash": "a793e2daa3207df3cc8e4235ce0e942ace191e9fca2baccbdf7033a40cf088a1"
-        },
-        {
-            "date": 1696573850266,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-12-error.log",
-            "hash": "714a309a66c4b1861b361cdc78c664174d819fe9f778e9aa8cab6840aaa2feda"
-        },
-        {
-            "date": 1696580649829,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-14-error.log",
-            "hash": "106cc7d43f20d702461e627df7368d4d779cd3701aa17b42d03d0a33135d5967"
-        },
-        {
-            "date": 1696590606332,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-17-error.log",
-            "hash": "c14cc7193e0d273a844f065b75533b0e9e48025c1fc444322755dc0ffcdfffd7"
-        },
-        {
-            "date": 1696596442397,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-18-error.log",
-            "hash": "bd1e2b2be1d5785ecd5b65648043f633397815c267c11aedb1e9d0b6ce9275cb"
-        },
-        {
-            "date": 1696597729254,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-19-error.log",
-            "hash": "bac0358ace9d532943e9f26244d801c854bfaf888052f3f9addfecabb3c372e3"
-        },
-        {
-            "date": 1696601358289,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-20-error.log",
-            "hash": "f395612cb48c69225287fa741663893e4902d00021763f0446b2bc63e819996e"
-        },
-        {
-            "date": 1696604445655,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-21-error.log",
-            "hash": "44c3ff589dabece28a62e9daf7040d4913187af9a83afa958c6caa77550d453f"
-        },
-        {
-            "date": 1696608185544,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-22-error.log",
-            "hash": "d36943c9a6f37801850ac0d273f181b27a277cb5378c4a51760bfdccb4e73681"
-        },
-        {
-            "date": 1696611761544,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-23-error.log",
-            "hash": "f73f3e5e3bae13df5642723854321e85801e0b9e9d006667d194b752747575c7"
-        },
-        {
-            "date": 1696653852934,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-10-error.log",
-            "hash": "3b1c23c35f88fb3bc3e932663f4da5fbeddf1d59f9a9214ce82f00a31af13562"
-        },
-        {
-            "date": 1696655294412,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-11-error.log",
-            "hash": "5c1a80e7db48b7c696a05c9bfbc3148c3103d2cecd330047e2ab7295a22f125c"
-        },
-        {
-            "date": 1696671687570,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-15-error.log",
-            "hash": "6bcf3ea6e5bf3789436fbc176f9469bb4b5c6ac2f146b2c852c0a495f139376d"
-        },
-        {
-            "date": 1696672823240,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-16-error.log",
-            "hash": "e02702c370061136740fe7fb9bb4af05db5cbbabf5c03373590a694dffc7c903"
-        },
-        {
-            "date": 1696681748392,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-18-error.log",
-            "hash": "7cf7f0e412904a073e3d554f764e975d95ef5b57ba7c9cc188abdbf31d7392fe"
-        },
-        {
-            "date": 1696687585932,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-20-error.log",
-            "hash": "baef24c1c1cf84005c97bb3403b2a1761364fe5226cd4c6d36ecf9b8b3bc46f1"
-        },
-        {
-            "date": 1696691547173,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-21-error.log",
-            "hash": "be1a98ec06ff576ea5df41addb4686611b6389003b8a9f1d4ec3d17cff97b810"
-        },
-        {
-            "date": 1696694414665,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-22-error.log",
-            "hash": "f281128ee703bc3b0ac13a2d5245889ddd26ea21b3657592d4b1ed32f426facf"
-        },
-        {
-            "date": 1696768042990,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-18-error.log",
-            "hash": "bd98cbb13ebfc05de3abb343b95229b2a92d17f05329da81c037581798da7fee"
-        },
-        {
-            "date": 1696771275884,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-19-error.log",
-            "hash": "0060e91ad2ba203499ca1d44bdc70138b67881616c4f7597ff618ab2f0d0e7d7"
-        },
-        {
-            "date": 1696776365852,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-20-error.log",
-            "hash": "dcbf1386dc8f22723b2d92402280728eff16288fa7d2c118ae2a9a47d5e8622f"
-        },
-        {
-            "date": 1696777655830,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-21-error.log",
-            "hash": "f31c5e463c62b3ed0373f8d83ff4cdda83c22b1f2929fd8d74dbd5808124c38f"
-        },
-        {
-            "date": 1696861931607,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-09-10-20-error.log",
-            "hash": "b9bca77a2f8efe424f1aa03edc2044204c6952257bd57e5f2cc4842887ae8fd2"
-        },
-        {
-            "date": 1696941761653,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-18-error.log",
-            "hash": "4a30b7d6d2921d7de8dd1b81c9a4331630ffc6dd22f1e172812e97f45bfbbe61"
-        },
-        {
-            "date": 1696944401301,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-19-error.log",
-            "hash": "2aeeb5edaf818d4fe440cf449991e62edb8da915e3eb782e26fb9a4f8334f664"
-        },
-        {
-            "date": 1696948887223,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-20-error.log",
-            "hash": "0da5bae9985e16b09e064f0d0b5bf7bfbcb776e9e6bbf3e730eea7818470325e"
-        },
-        {
-            "date": 1696952855370,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-21-error.log",
-            "hash": "11f06315e4968efc72f9c0d19a4869682d13111a5a1e81ec99cd3953a43a6582"
-        },
-        {
-            "date": 1696982424674,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-06-error.log",
-            "hash": "68a2336b50fbf4ea28a82cbeb0cbdc98ed98f8e29c34a20d130386d89453c95f"
-        },
-        {
-            "date": 1697004003671,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-12-error.log",
-            "hash": "ba766ac889775e520a4acf1c15b1caec96573546ead0f9def3998cb0b255bf35"
-        },
-        {
-            "date": 1697009924110,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-13-error.log",
-            "hash": "5a0c5e3cd9254959a327ac753bba7a1cf83b96270676cb7dd89c2a5aaa2496d8"
-        },
-        {
-            "date": 1697011251117,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-14-error.log",
-            "hash": "ee12f1c6f7f0ce5bd48a75335e8acf7882e3204ad94eef404425b11df3686926"
-        },
-        {
-            "date": 1697030543533,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-19-error.log",
-            "hash": "dbe17010819179d0e7d6ec748135461306196927f23defe90ee4e9f92fc46d58"
-        },
-        {
-            "date": 1697035065276,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-20-error.log",
-            "hash": "d7ca5dfd3a4859310c823f6d14dc3fdfff57fb040fdb07a280f808b611ab572c"
-        },
-        {
-            "date": 1697080191100,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-12-10-09-error.log",
-            "hash": "17a0af4bfdc866b1eb6da74959967e89b91785323607374c2b2102dfb3a42fe7"
-        },
-        {
-            "date": 1697243711133,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-06-error.log",
-            "hash": "f8f535d2c44970fcdfa57968876084b5ec727058ce3f043b745ff47464473117"
-        },
-        {
-            "date": 1697245580601,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-07-error.log",
-            "hash": "86ae965af647888cf5d0d68f7d23ca7bb4a43429171f265b295bcafe7e8dd6f3"
-        },
-        {
-            "date": 1697293582754,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-20-error.log",
-            "hash": "c0e77aca09ce4b77fd6ab405f5c7da2ffb4ae5b321b479aaebf4104e292a4a93"
-        },
-        {
-            "date": 1697296623141,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-21-error.log",
-            "hash": "a1ddef363910657cf535ae50782ce223e250bb63d59e14c7c87f2adc68900dfe"
-        },
-        {
-            "date": 1697300760876,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-22-error.log",
-            "hash": "8623bc498365a1106bcc8cab9d5b679ce82ce8b91ce62e27a2e1d3a939f08afc"
-        },
-        {
-            "date": 1697306382721,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-23-error.log",
-            "hash": "35af9aa04c0fe1948c9264ca89fd62798704209b9713eaf3d26e2b0083a09fb0"
-        },
-        {
-            "date": 1697327597265,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-05-error.log",
-            "hash": "2eedbec4c3f15e20df76579e5fcb9dc8159b2f1e184aafe25e19aaee2a621fe9"
-        },
-        {
-            "date": 1697331443528,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-06-error.log",
-            "hash": "0c38fa39215ab3eb36fc2a322fa7eb4c5b960713711260400d24c2b586f4935f"
-        },
-        {
-            "date": 1697380902754,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-20-error.log",
-            "hash": "6c3ec240be5e13d4dbe5e1f2445ba5cdff34e7a51122b679e9efb2404f4dab31"
-        },
-        {
-            "date": 1697382775541,
-            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-21-error.log",
-            "hash": "a0d69c9b7e76e081187729a9b89bc00e3bd0b63f36db377c60a76f0cfe3c8789"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1696263758193,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-02-10-22-error.log",
+      "hash": "eebed2a9d05b05e09ec10bc908fe50ac6b2b6657a274dd2b08ff073a26ee12ec"
+    },
+    {
+      "date": 1696389336032,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-04-10-09-error.log",
+      "hash": "b2d3a8e33c31af04fbec55008b21ee74c06464f0381068317e5939ba1250d832"
+    },
+    {
+      "date": 1696486790679,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-05-10-12-error.log",
+      "hash": "ef2045096c2783770b2c906327b9aa34063f5892bb91741802c48d9752809842"
+    },
+    {
+      "date": 1696495446170,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-05-10-14-error.log",
+      "hash": "06f4b5ca544df9f54e622fdfee48b8af8f6a5fab2c63410f1c3a6e2c157a3839"
+    },
+    {
+      "date": 1696549528423,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-05-error.log",
+      "hash": "460c3c158e236a0a21d058c11f930f76af7423708eda62b34cbe120be2a7d74c"
+    },
+    {
+      "date": 1696554043697,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-07-error.log",
+      "hash": "a793e2daa3207df3cc8e4235ce0e942ace191e9fca2baccbdf7033a40cf088a1"
+    },
+    {
+      "date": 1696573850266,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-12-error.log",
+      "hash": "714a309a66c4b1861b361cdc78c664174d819fe9f778e9aa8cab6840aaa2feda"
+    },
+    {
+      "date": 1696580649829,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-14-error.log",
+      "hash": "106cc7d43f20d702461e627df7368d4d779cd3701aa17b42d03d0a33135d5967"
+    },
+    {
+      "date": 1696590606332,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-17-error.log",
+      "hash": "c14cc7193e0d273a844f065b75533b0e9e48025c1fc444322755dc0ffcdfffd7"
+    },
+    {
+      "date": 1696596442397,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-18-error.log",
+      "hash": "bd1e2b2be1d5785ecd5b65648043f633397815c267c11aedb1e9d0b6ce9275cb"
+    },
+    {
+      "date": 1696597729254,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-19-error.log",
+      "hash": "bac0358ace9d532943e9f26244d801c854bfaf888052f3f9addfecabb3c372e3"
+    },
+    {
+      "date": 1696601358289,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-20-error.log",
+      "hash": "f395612cb48c69225287fa741663893e4902d00021763f0446b2bc63e819996e"
+    },
+    {
+      "date": 1696604445655,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-21-error.log",
+      "hash": "44c3ff589dabece28a62e9daf7040d4913187af9a83afa958c6caa77550d453f"
+    },
+    {
+      "date": 1696608185544,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-22-error.log",
+      "hash": "d36943c9a6f37801850ac0d273f181b27a277cb5378c4a51760bfdccb4e73681"
+    },
+    {
+      "date": 1696611761544,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-06-10-23-error.log",
+      "hash": "f73f3e5e3bae13df5642723854321e85801e0b9e9d006667d194b752747575c7"
+    },
+    {
+      "date": 1696653852934,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-10-error.log",
+      "hash": "3b1c23c35f88fb3bc3e932663f4da5fbeddf1d59f9a9214ce82f00a31af13562"
+    },
+    {
+      "date": 1696655294412,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-11-error.log",
+      "hash": "5c1a80e7db48b7c696a05c9bfbc3148c3103d2cecd330047e2ab7295a22f125c"
+    },
+    {
+      "date": 1696671687570,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-15-error.log",
+      "hash": "6bcf3ea6e5bf3789436fbc176f9469bb4b5c6ac2f146b2c852c0a495f139376d"
+    },
+    {
+      "date": 1696672823240,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-16-error.log",
+      "hash": "e02702c370061136740fe7fb9bb4af05db5cbbabf5c03373590a694dffc7c903"
+    },
+    {
+      "date": 1696681748392,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-18-error.log",
+      "hash": "7cf7f0e412904a073e3d554f764e975d95ef5b57ba7c9cc188abdbf31d7392fe"
+    },
+    {
+      "date": 1696687585932,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-20-error.log",
+      "hash": "baef24c1c1cf84005c97bb3403b2a1761364fe5226cd4c6d36ecf9b8b3bc46f1"
+    },
+    {
+      "date": 1696691547173,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-21-error.log",
+      "hash": "be1a98ec06ff576ea5df41addb4686611b6389003b8a9f1d4ec3d17cff97b810"
+    },
+    {
+      "date": 1696694414665,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-07-10-22-error.log",
+      "hash": "f281128ee703bc3b0ac13a2d5245889ddd26ea21b3657592d4b1ed32f426facf"
+    },
+    {
+      "date": 1696768042990,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-18-error.log",
+      "hash": "bd98cbb13ebfc05de3abb343b95229b2a92d17f05329da81c037581798da7fee"
+    },
+    {
+      "date": 1696771275884,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-19-error.log",
+      "hash": "0060e91ad2ba203499ca1d44bdc70138b67881616c4f7597ff618ab2f0d0e7d7"
+    },
+    {
+      "date": 1696776365852,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-20-error.log",
+      "hash": "dcbf1386dc8f22723b2d92402280728eff16288fa7d2c118ae2a9a47d5e8622f"
+    },
+    {
+      "date": 1696777655830,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-08-10-21-error.log",
+      "hash": "f31c5e463c62b3ed0373f8d83ff4cdda83c22b1f2929fd8d74dbd5808124c38f"
+    },
+    {
+      "date": 1696861931607,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-09-10-20-error.log",
+      "hash": "b9bca77a2f8efe424f1aa03edc2044204c6952257bd57e5f2cc4842887ae8fd2"
+    },
+    {
+      "date": 1696941761653,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-18-error.log",
+      "hash": "4a30b7d6d2921d7de8dd1b81c9a4331630ffc6dd22f1e172812e97f45bfbbe61"
+    },
+    {
+      "date": 1696944401301,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-19-error.log",
+      "hash": "2aeeb5edaf818d4fe440cf449991e62edb8da915e3eb782e26fb9a4f8334f664"
+    },
+    {
+      "date": 1696948887223,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-20-error.log",
+      "hash": "0da5bae9985e16b09e064f0d0b5bf7bfbcb776e9e6bbf3e730eea7818470325e"
+    },
+    {
+      "date": 1696952855370,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-10-10-21-error.log",
+      "hash": "11f06315e4968efc72f9c0d19a4869682d13111a5a1e81ec99cd3953a43a6582"
+    },
+    {
+      "date": 1696982424674,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-06-error.log",
+      "hash": "68a2336b50fbf4ea28a82cbeb0cbdc98ed98f8e29c34a20d130386d89453c95f"
+    },
+    {
+      "date": 1697004003671,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-12-error.log",
+      "hash": "ba766ac889775e520a4acf1c15b1caec96573546ead0f9def3998cb0b255bf35"
+    },
+    {
+      "date": 1697009924110,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-13-error.log",
+      "hash": "5a0c5e3cd9254959a327ac753bba7a1cf83b96270676cb7dd89c2a5aaa2496d8"
+    },
+    {
+      "date": 1697011251117,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-14-error.log",
+      "hash": "ee12f1c6f7f0ce5bd48a75335e8acf7882e3204ad94eef404425b11df3686926"
+    },
+    {
+      "date": 1697030543533,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-19-error.log",
+      "hash": "dbe17010819179d0e7d6ec748135461306196927f23defe90ee4e9f92fc46d58"
+    },
+    {
+      "date": 1697035065276,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-11-10-20-error.log",
+      "hash": "d7ca5dfd3a4859310c823f6d14dc3fdfff57fb040fdb07a280f808b611ab572c"
+    },
+    {
+      "date": 1697080191100,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-12-10-09-error.log",
+      "hash": "17a0af4bfdc866b1eb6da74959967e89b91785323607374c2b2102dfb3a42fe7"
+    },
+    {
+      "date": 1697243711133,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-06-error.log",
+      "hash": "f8f535d2c44970fcdfa57968876084b5ec727058ce3f043b745ff47464473117"
+    },
+    {
+      "date": 1697245580601,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-07-error.log",
+      "hash": "86ae965af647888cf5d0d68f7d23ca7bb4a43429171f265b295bcafe7e8dd6f3"
+    },
+    {
+      "date": 1697293582754,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-20-error.log",
+      "hash": "c0e77aca09ce4b77fd6ab405f5c7da2ffb4ae5b321b479aaebf4104e292a4a93"
+    },
+    {
+      "date": 1697296623141,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-21-error.log",
+      "hash": "a1ddef363910657cf535ae50782ce223e250bb63d59e14c7c87f2adc68900dfe"
+    },
+    {
+      "date": 1697300760876,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-22-error.log",
+      "hash": "8623bc498365a1106bcc8cab9d5b679ce82ce8b91ce62e27a2e1d3a939f08afc"
+    },
+    {
+      "date": 1697306382721,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-14-10-23-error.log",
+      "hash": "35af9aa04c0fe1948c9264ca89fd62798704209b9713eaf3d26e2b0083a09fb0"
+    },
+    {
+      "date": 1697327597265,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-05-error.log",
+      "hash": "2eedbec4c3f15e20df76579e5fcb9dc8159b2f1e184aafe25e19aaee2a621fe9"
+    },
+    {
+      "date": 1697331443528,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-06-error.log",
+      "hash": "0c38fa39215ab3eb36fc2a322fa7eb4c5b960713711260400d24c2b586f4935f"
+    },
+    {
+      "date": 1697380902754,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-20-error.log",
+      "hash": "6c3ec240be5e13d4dbe5e1f2445ba5cdff34e7a51122b679e9efb2404f4dab31"
+    },
+    {
+      "date": 1697382775541,
+      "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-15-10-21-error.log",
+      "hash": "a0d69c9b7e76e081187729a9b89bc00e3bd0b63f36db377c60a76f0cfe3c8789"
+    }
+  ],
+  "hashType": "sha256"
 }
