@@ -12,8 +12,14 @@ router.post(
 
 router.post(
   '/create-faculty',
-  validateRequest(UserValidation.createUserZodSchema),
+  validateRequest(UserValidation.createFacultyZodSchema),
   UserController.createFaculy,
+);
+
+router.post(
+  '/create-admin',
+  validateRequest(UserValidation.createAdminZodSchema),
+  UserController.createAdmin,
 );
 
 export const userRoutes = router;
