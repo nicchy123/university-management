@@ -21,6 +21,7 @@ const createStudent = async (student: IStudent, user: IUser) => {
   if (!user.password) {
     user.password = config.default_student_pass as string;
   }
+
   user.role = 'student';
   const academicsemester = await AcademicSemester.findById(
     student.academicSemester,
