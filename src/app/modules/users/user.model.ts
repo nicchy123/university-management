@@ -29,6 +29,10 @@ const userSchema = new Schema<IUser>(
       type: Schema.Types.ObjectId,
       ref: 'Admin',
     },
+    needsPasswordChange: {
+      type: Boolean,
+      default: true,
+    },
   },
   {
     timestamps: true,
