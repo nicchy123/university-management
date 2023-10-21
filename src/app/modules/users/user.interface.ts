@@ -14,7 +14,7 @@ export type IUser = {
   needsPasswordChange: true | false;
 };
 export type IUserMethods = {
-  isUserExis(id: string): Promise<Partial<IUser>>;
+  isUserExist(id: string): Promise<Partial<IUser | null>>;
   isPasswordMatched(
     givenPassword: string,
     savedPassword: string,
