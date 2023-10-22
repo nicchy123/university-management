@@ -1,16 +1,24 @@
 import cors from 'cors';
-import express, { Application, Request, Response } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
-import globalErrorHandler from './app/middleWares/globalErrorHandlers';
-import routes from './routes';
+
 import cookieParser from 'cookie-parser';
+import router from './routes';
+import globalErrorHandler from './app/middleWares/globalErrorHandlers';
+
 const app: Application = express();
+
 app.use(cors());
+app.use(cookieParser());
+
 //parser
 app.use(express.json());
-app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api/v1/', routes);
+
+// app.use('/api/v1/users/', UserRoutes);
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+app.use('/api/v1', router);
+
 //Testing
 // app.get('/', async (req: Request, res: Response, next: NextFunction) => {
 //   throw new Error('Testing Error logger')
@@ -20,7 +28,7 @@ app.use('/api/v1/', routes);
 app.use(globalErrorHandler);
 
 //handle not found
-app.use((req: Request, res: Response) => {
+app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(httpStatus.NOT_FOUND).json({
     success: false,
     message: 'Not Found',
@@ -31,5 +39,7 @@ app.use((req: Request, res: Response) => {
       },
     ],
   });
+  next();
 });
+
 export default app;
