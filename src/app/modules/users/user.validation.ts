@@ -4,16 +4,15 @@ import { bloodGroup, gender } from '../student/student.constant';
 const createStudentZodSchema = z.object({
   body: z.object({
     password: z.string().optional(),
-
     student: z.object({
       name: z.object({
         firstName: z.string({
           required_error: 'First name is required',
         }),
+        middleName: z.string().optional(),
         lastName: z.string({
           required_error: 'Last name is required',
         }),
-        middleName: z.string().optional(),
       }),
       gender: z.enum([...gender] as [string, ...string[]], {
         required_error: 'Gender is required',
@@ -89,10 +88,10 @@ const createStudentZodSchema = z.object({
     }),
   }),
 });
+
 const createFacultyZodSchema = z.object({
   body: z.object({
     password: z.string().optional(),
-
     faculty: z.object({
       name: z.object({
         firstName: z.string({
@@ -145,6 +144,7 @@ const createFacultyZodSchema = z.object({
     }),
   }),
 });
+
 const createAdminZodSchema = z.object({
   body: z.object({
     password: z.string().optional(),
@@ -201,11 +201,11 @@ const createAdminZodSchema = z.object({
       designation: z.string({
         required_error: 'Designation is required',
       }),
-
       profileImage: z.string().optional(),
     }),
   }),
 });
+
 export const UserValidation = {
   createStudentZodSchema,
   createFacultyZodSchema,

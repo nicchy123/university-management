@@ -1,7 +1,7 @@
-import { IAcademicFaculty } from './../acdemicFaculy/acdemicFaculy.interface';
-import { IAcademicDepartment } from './../academicDepartment/academicDepartment.interface';
 import { Model, Types } from 'mongoose';
 import { IAcademicSemester } from '../academicSemester/academicSemester.interface';
+import { IAcademicFaculty } from '../acdemicFaculy/acdemicFaculy.interface';
+import { IAcademicDepartment } from '../academicDepartment/academicDepartment.interface';
 
 export type UserName = {
   firstName: string;
@@ -40,7 +40,7 @@ export type IStudent = {
   guardian: Guardian; // embedded object
   localGuardian: LocalGuardian; // embedded object
   academicFaculty: Types.ObjectId | IAcademicFaculty; // reference _id
-  academicDepartment: Types.ObjectId | IAcademicDepartment; // // reference _id
+  academicDepartment: Types.ObjectId | IAcademicDepartment; // reference _id
   academicSemester: Types.ObjectId | IAcademicSemester; // reference _id
   profileImage?: string;
 };

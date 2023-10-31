@@ -1,22 +1,26 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { SortOrder } from 'mongoose';
-import { IGenericResponse } from '../../../interfaces/common';
-import httpStatus from 'http-status';
-import ApiError from '../../../errors/ApiError';
+import mongoose, { SortOrder } from 'mongoose';
 import { studentSearchableFields } from './student.constant';
 import { IStudent, IStudentFilters } from './student.interface';
 import { Student } from './student.model';
 import IPaginationOptions from '../../../interfaces/pagination';
+import { IGenericResponse } from '../../../interfaces/common';
 import { paginationHelpers } from '../../../helper/paginationHelper';
+import httpStatus from 'http-status';
+import ApiError from '../../../errors/ApiError';
+import { User } from '../users/user.model';
 
 const getAllStudents = async (
   filters: IStudentFilters,
   paginationOptions: IPaginationOptions,
 ): Promise<IGenericResponse<IStudent[]>> => {
+  // Extract searchTerm to implement search query
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelpers.calculatePagination(paginationOptions);
+
   const andConditions = [];
+  // Search needs $or for searching in specified fields
   if (searchTerm) {
     andConditions.push({
       $or: studentSearchableFields.map(field => ({
@@ -27,7 +31,7 @@ const getAllStudents = async (
       })),
     });
   }
-
+  // Filters needs $and to fullfill all the conditions
   if (Object.keys(filtersData).length) {
     andConditions.push({
       $and: Object.entries(filtersData).map(([field, value]) => ({
@@ -35,8 +39,9 @@ const getAllStudents = async (
       })),
     });
   }
-  const sortConditions: { [key: string]: SortOrder } = {};
 
+  // Dynamic  Sort needs  field to  do sorting
+  const sortConditions: { [key: string]: SortOrder } = {};
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder;
   }
@@ -80,13 +85,14 @@ const updateStudent = async (
   if (!isExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Student not found !');
   }
+
   const { name, guardian, localGuardian, ...studentData } = payload;
+
   const updatedStudentData: Partial<IStudent> = { ...studentData };
 
   if (name && Object.keys(name).length > 0) {
     Object.keys(name).forEach(key => {
       const nameKey = `name.${key}` as keyof Partial<IStudent>; // `name.fisrtName`
-
       (updatedStudentData as any)[nameKey] = name[key as keyof typeof name];
     });
   }
@@ -94,8 +100,7 @@ const updateStudent = async (
     Object.keys(guardian).forEach(key => {
       const guardianKey = `guardian.${key}` as keyof Partial<IStudent>; // `guardian.fisrtguardian`
       (updatedStudentData as any)[guardianKey] =
-        guardian[key as keyof typeof guardian]; // updatedStudentData['guardian.motherContactNo']=guardian[motherContactNo]
-      // updatedStudentData --> object create --> guardian : { motherContactNo: 0177}
+        guardian[key as keyof typeof guardian];
     });
   }
   if (localGuardian && Object.keys(localGuardian).length > 0) {
@@ -109,16 +114,41 @@ const updateStudent = async (
 
   const result = await Student.findOneAndUpdate({ id }, updatedStudentData, {
     new: true,
-  });
+  })
+    .populate('academicFaculty')
+    .populate('academicDepartment')
+    .populate('academicSemester');
+
   return result;
 };
 
 const deleteStudent = async (id: string): Promise<IStudent | null> => {
-  const result = await Student.findByIdAndDelete(id)
-    .populate('academicSemester')
-    .populate('academicDepartment')
-    .populate('academicFaculty');
-  return result;
+  // check if the student is exist
+  const isExist = await Student.findOne({ id });
+
+  if (!isExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Student not found !');
+  }
+
+  const session = await mongoose.startSession();
+
+  try {
+    session.startTransaction();
+    //delete student first
+    const student = await Student.findOneAndDelete({ id }, { session });
+    if (!student) {
+      throw new ApiError(404, 'Failed to delete student');
+    }
+    //delete user
+    await User.deleteOne({ id });
+    session.commitTransaction();
+    session.endSession();
+
+    return student;
+  } catch (error) {
+    session.abortTransaction();
+    throw error;
+  }
 };
 
 export const StudentService = {
