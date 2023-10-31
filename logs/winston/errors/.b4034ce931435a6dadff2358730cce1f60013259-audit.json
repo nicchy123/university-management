@@ -194,6 +194,11 @@
             "date": 1698755385222,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-31-10-18-error.log",
             "hash": "3953cc4a3cb9e28e7bb50303c7b36ca6097d0ccb843e531fb74855b8ba8ba455"
+        },
+        {
+            "date": 1698769264435,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-31-10-22-error.log",
+            "hash": "a33986a84d75aea7c1414c39e152a69fbf7a9c1fb72ac25e517e923e8f5efe39"
         }
     ],
     "hashType": "sha256"

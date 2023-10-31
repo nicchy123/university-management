@@ -23,7 +23,7 @@ const getAllManagementDepartments = async (
   if (searchTerm) {
     andConditions.push({
       $or: ManagementDepartmentsFilterableFields.map(field => ({
-        [field]: { $regex: searchTerm, options: 'i' },
+        [field]: { $regex: searchTerm, $options: 'i' },
       })),
     });
   }
