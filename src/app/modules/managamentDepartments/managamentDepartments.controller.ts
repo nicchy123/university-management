@@ -11,7 +11,6 @@ import { paginationFields } from '../../../constants/pagination';
 const createManagementDepartment = catchAsync(
   async (req: Request, res: Response) => {
     const { ...payload } = req.body;
-    console.log(payload);
     const result =
       await MangaementDepartmentService.createMangaementDepartment(payload);
     sendReponse<IMangaementDepartment>(res, {

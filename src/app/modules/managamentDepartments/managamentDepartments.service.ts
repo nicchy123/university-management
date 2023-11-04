@@ -6,11 +6,11 @@ import {
   IMangaementDepartment,
   IMangaementDepartmentFilters,
 } from './managamentDepartments.interface';
-import { ManagamenentDepartment } from './managamentDepartments.model';
 import { ManagementDepartmentsFilterableFields } from './managementDepartments.constant';
+import { ManagementDepartment } from './managamentDepartments.model';
 
 const createMangaementDepartment = async (payload: IMangaementDepartment) => {
-  const result = await ManagamenentDepartment.create(payload);
+  const result = await ManagementDepartment.create(payload);
   return result;
 };
 
@@ -46,12 +46,12 @@ const getAllManagementDepartments = async (
   const whereConditions =
     andConditions.length > 0 ? { $and: andConditions } : {};
 
-  const result = await ManagamenentDepartment.find(whereConditions)
+  const result = await ManagementDepartment.find(whereConditions)
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
 
-  const total = await ManagamenentDepartment.countDocuments();
+  const total = await ManagementDepartment.countDocuments();
 
   return {
     meta: {
@@ -64,7 +64,7 @@ const getAllManagementDepartments = async (
 };
 
 const getSinglelManagementDepartment = async (id: string) => {
-  const result = await ManagamenentDepartment.findOne({ _id: id });
+  const result = await ManagementDepartment.findOne({ _id: id });
   return result;
 };
 
@@ -72,7 +72,7 @@ const updateManagementDepartment = async (
   id: string,
   payload: Partial<IMangaementDepartment>,
 ) => {
-  const result = await ManagamenentDepartment.findOneAndUpdate(
+  const result = await ManagementDepartment.findOneAndUpdate(
     { _id: id },
     payload,
     {
@@ -83,7 +83,7 @@ const updateManagementDepartment = async (
 };
 
 const deleteManagementDepartment = async (id: string) => {
-  const result = await ManagamenentDepartment.findByIdAndDelete({ _id: id });
+  const result = await ManagementDepartment.findByIdAndDelete({ _id: id });
   return result;
 };
 

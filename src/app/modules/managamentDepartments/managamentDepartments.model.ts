@@ -1,16 +1,19 @@
-import { IAcademicFaculty } from '../acdemicFaculy/acdemicFaculy.interface';
 import {
-  IMangaementDepartment,
   ManagementDepartmentModel,
+  IMangaementDepartment,
 } from './managamentDepartments.interface';
 import { Schema, model } from 'mongoose';
 
-const managamenentDepartmentSchema = new Schema<
-  IAcademicFaculty,
+const ManagementDepartmentSchema = new Schema<
+  IMangaementDepartment,
   ManagementDepartmentModel
 >(
   {
-    title: { type: String, required: true },
+    title: {
+      type: String,
+      required: true,
+      unique: true,
+    },
   },
   {
     timestamps: true,
@@ -20,7 +23,7 @@ const managamenentDepartmentSchema = new Schema<
   },
 );
 
-export const ManagamenentDepartment = model<IMangaementDepartment>(
-  'ManagamenentDepartment',
-  managamenentDepartmentSchema,
-);
+export const ManagementDepartment = model<
+  IMangaementDepartment,
+  ManagementDepartmentModel
+>('ManagementDepartment', ManagementDepartmentSchema);
