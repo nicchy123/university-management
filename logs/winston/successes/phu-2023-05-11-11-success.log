@@ -1,0 +1,8 @@
+2023-11-05T05:31:24.312Z [Auth service] info: SIGTERM is received
+2023-11-05T05:38:41.669Z [Auth service] info: 🛢   Database is connected successfully
+2023-11-05T05:38:41.678Z [Auth service] info: Application  listening on port 5000
+2023-11-05T05:41:05.587Z [Auth service] info: SIGTERM is received
+2023-11-05T05:41:23.387Z [Auth service] info: 🛢   Database is connected successfully
+2023-11-05T05:41:23.412Z [Auth service] info: Application  listening on port 5000
+2023-11-05T05:49:05.078Z [Auth service] info: 🛢   Database is connected successfully
+2023-11-05T05:49:05.104Z [Auth service] info: Application  listening on port 5000
