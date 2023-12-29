@@ -34,6 +34,16 @@
             "date": 1699189661273,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-05-11-19-error.log",
             "hash": "1bacdbd1537fb8e835414bd6c64df9fb6a273461dcc5dd665477c494b0143100"
+        },
+        {
+            "date": 1699194033068,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-05-11-20-error.log",
+            "hash": "859c2631f27eb795e216644be85bf7b0308d9e3688caba865dd8341592bae140"
+        },
+        {
+            "date": 1699541060664,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/errors/phu-2023-09-11-20-error.log",
+            "hash": "2f328fb3af9bd95ae1be69cf18d76f3ed40007e3db04b026b63c2d135fc5f414"
         }
     ],
     "hashType": "sha256"

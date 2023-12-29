@@ -34,6 +34,16 @@
             "date": 1699189636617,
             "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-05-11-19-success.log",
             "hash": "fd7bf2d32b78cc29ab702aa804a101b2c37c98041a509bd023c33aba374b5242"
+        },
+        {
+            "date": 1699194033066,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-05-11-20-success.log",
+            "hash": "ed1429b2a76f34926c8e3b678d813bba145cb82e77eb38432b0078e2149f7d53"
+        },
+        {
+            "date": 1699541060661,
+            "name": "/home/nasir/Projects/Next Level/universiry-management/logs/winston/successes/phu-2023-09-11-20-success.log",
+            "hash": "8ac906f927ab5e934cb8451daa98db9334b70ff8f553ee2d2eaf9048c71d2493"
         }
     ],
     "hashType": "sha256"
